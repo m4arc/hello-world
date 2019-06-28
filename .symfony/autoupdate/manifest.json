@@ -1,0 +1,2006 @@
+[
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "9ce43b964674fb7b6bf89d3ea751e557f1fb872c",
+        "bin_sha256": "02343fc42b5d89b1be438e01b5cfdcb56e150f18a24a797db53a5316ca9bed8a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_linux_amd64.gz",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "c16a26c85decfbc9983b5e8d23e653eabc8cbcec",
+        "bin_sha256": "7d40273329b9a8aa5a8a39fc2ff42c5fe46c5509f4eaa2303c1ea0d691f2e0a5",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_linux_386.gz",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "a08a4453d182a64d6bee187d412f3777476a3f4f",
+        "bin_sha256": "c882995c76af3ed1edf07499d78047883e8eb83f91f8372b034f4b53a408952e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_darwin_amd64.gz",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "39acffbc839925010177539106b9939a94d97990",
+        "bin_sha256": "c0380275acc80d4dff5567a1c0edc462d09ea3aba359613166fe17c51fee0c4f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_darwin_386.gz",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "ea9cbd2802617459ac3b3624b5b509ac9c899b65",
+        "bin_sha256": "ea9cbd2802617459ac3b3624b5b509ac9c899b65748f190db2d3953397353a97",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_windows_amd64.exe",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "ad6b2ce188db570ec570e47066de15bcf21945a3",
+        "bin_sha256": "ad6b2ce188db570ec570e47066de15bcf21945a34929610fef96b0efbfc476fc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.5\/symfony_windows_386.exe",
+        "version": "4.5.5",
+        "notes": "- Fix transferring files using `env:cp` with Windows when specifying remote path\n- Fix DATABASE_URL forces serverVersion to 10.2.0 whereas it is compatible with >= 10.2.7\n- Allow one to use DATABASE_VERSION and DATABASE_CHARSET environment variable to override values in DATABASE_URL\n- Add missing help in the error message when ones tries to delete a project variable whereas it is defined at the environment level\n- Fix `symfony ssh` does not OpenSSH known hosts in addition to PuTTY ones on Windows\n- Don't allow uploading SSH keys that are already uploaded\n- Fix `symfony deploy` does not interactively ask to trust Host key on Windows\n- Make `symfony deploy` exit earlier when everything is up to date\n- Add `--dry-run` option to `symfony deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "926475c6cecd19abd2a44c8b5998e8a69e814290",
+        "bin_sha256": "f0d9afeb43ee993c88398f58c2529bcab2343a5d0a900cb936b4ea4de3675499",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_linux_amd64.gz",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "160b3bd558a9c1ecde7e3b21825eefb7122096ae",
+        "bin_sha256": "bbb06edbe37ba22eb606d9553a69c1bbe97ca15000b940c1f1eb9910687620a4",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_linux_386.gz",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "f430c18fef880519cc7b0804d382f5d560fbdb76",
+        "bin_sha256": "9e27bc27c790e8a8593165d9168ab42faf1d7c8f8963d2cdf870e56edbf9050f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_darwin_amd64.gz",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "30a4748d4d8efc0081d471d7f712ae4d7425cf02",
+        "bin_sha256": "53d9b7c93583ceb9e3a332ddcc344c690f907469fadbc04a602c07ca53dda956",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_darwin_386.gz",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "ab69f20b4b399cf32472bfbed2a12d32611a77c8",
+        "bin_sha256": "ab69f20b4b399cf32472bfbed2a12d32611a77c8976914057b425fdb745a573b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_windows_amd64.exe",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "0d3689f3847ccb510e36814b64a8575d2acb4985",
+        "bin_sha256": "0d3689f3847ccb510e36814b64a8575d2acb4985318d0af0875476bfee1f65a9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.4\/symfony_windows_386.exe",
+        "version": "4.5.4",
+        "notes": "- Fix panic in relationships decoding when database has no credentials\n- Fix panic in `self:cleanup` when no previous version is present\n- Fix reading SSH passphrase when redirecting stdin\n- Switch MySQL\/MariaDB charset from utf8 to utf8mb4\n- Add support for running `symfony phpdbg`\n- Add support for Kafka services (for SymfonyCloud and Docker)\n- Make variable project level by default for `var:delete` (and switched from `project-level` to `env-level` flag)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "b61b649112e910461dc8448c449fe8f9aa691cd4",
+        "bin_sha256": "545189bdf430f108d192e153d8b04b6a8290aa5959f9192227a2a44205aa6263",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_linux_amd64.gz",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "cedba81ed1a7ea1c3c4580caaaea7057b1d98fa7",
+        "bin_sha256": "b72f6324509479aa983f74cc5f23915539d48143a9ad503fe07680147d6c8ae3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_linux_386.gz",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "49a01d33b680ef8ad73c38160056a5b28f5fe224",
+        "bin_sha256": "1a4635dcc9e2c18ce8d04f4100ec31c6d4eb27551e847f890f7a37e5436c27db",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_darwin_amd64.gz",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "a0c377315728a24d89b247a698dca2d0f0630d4b",
+        "bin_sha256": "e981b5e7e69ccbf470a3cf584c6bb6c5d1c0712ae977a6bc3260b7d216ff01ee",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_darwin_386.gz",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "ed3228d372fa7a361095b0187b5f22d6ca0a17e5",
+        "bin_sha256": "ed3228d372fa7a361095b0187b5f22d6ca0a17e5ae89e69d7b59786ba3b702a9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_windows_amd64.exe",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "95e33258f4f3e133cfbab5a8016290cc4d8412d7",
+        "bin_sha256": "95e33258f4f3e133cfbab5a8016290cc4d8412d7b0dc5cf3f3348568dcce125d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.3\/symfony_windows_386.exe",
+        "version": "4.5.3",
+        "notes": "- Fix a panic in reloading proxy configuration\n- Make really hard to create projects in non interactive environments\n- Fix a race condition when running PHP commands\n- Clean up `var\/` sub-directories when empty\n- Fix potential panic in relationships decoding",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "982fbc47996af93df2dea0bb22b78af23585b459",
+        "bin_sha256": "6ef165b6b94a2ad2775130e00b09af63d079bd4c7151e85fa4f9327aeb24d835",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_linux_amd64.gz",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "1118ae1426562055cf4047fe778c030213e33067",
+        "bin_sha256": "2fd8b784ccddbf58bb92df42ddad2b0f203defe84adcc1f9a76376408fe35360",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_linux_386.gz",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "a03f139b49b86b3cf26e7297da760d44ca631f87",
+        "bin_sha256": "d65c6ceb68963263c73dcd850935647706678fdc496288c315cdf0803c8d2a53",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_darwin_amd64.gz",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "f4fc935e8999bb949acb5c261f65b8bf5c1a1b86",
+        "bin_sha256": "a53eeb983e4e5e3519d4c5415936e15e36a37cad819c8f5a3a3524fb3c4f3dc9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_darwin_386.gz",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "4eb72296c41bea410e6439a9e9a472ddf06dd0a8",
+        "bin_sha256": "4eb72296c41bea410e6439a9e9a472ddf06dd0a85019e9d9b79ea194b022cafb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_windows_amd64.exe",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "db44d6490f27d2d523a13a98a1177c26a42a5de5",
+        "bin_sha256": "db44d6490f27d2d523a13a98a1177c26a42a5de525b9578786b49cde7abab79c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.2\/symfony_windows_386.exe",
+        "version": "4.5.2",
+        "notes": "- Fix the auto-updater",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "feded0a96852e7b172535007fc65a516367f1001",
+        "bin_sha256": "0a2a64560c29637b3ae1b796d539d96bf19a0b40efa24bcf56b75581407ad4f2",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_linux_amd64.gz",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "f9f376a6da404cd423332ac92ebfef987fba4a64",
+        "bin_sha256": "f2b351eda658382288403484f8185bfe318187cd2f1510d9d975af69c1329024",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_linux_386.gz",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "c420c4d25f7f5e55dd09bb365dc5923cea71efaa",
+        "bin_sha256": "a52276ef2765afe6df408e8902402d92ab749a3000560783a24e8610f2ec8207",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_darwin_amd64.gz",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "1de522686bb33188a55cd7d76dd25d03b0259b70",
+        "bin_sha256": "032373add82430800e2fa18a9f52ab2438128f9ab7a0ed1e3c8531dd7e05c9dd",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_darwin_386.gz",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "0f500b4c19948a42273c738998969db8a633dd3e",
+        "bin_sha256": "0f500b4c19948a42273c738998969db8a633dd3ed683b1464ce4f2dce794044b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_windows_amd64.exe",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "02b47635fa267a85baf4869cde8e98345840018b",
+        "bin_sha256": "02b47635fa267a85baf4869cde8e98345840018b2cc21c1e20f1020b3e3def3a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.1\/symfony_windows_386.exe",
+        "version": "4.5.1",
+        "notes": "- Allow to store `composer` under the PHP directory (even if the directory is not in `$PATH`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "19adbbac5203475be057207120668d5225fdbe67",
+        "bin_sha256": "d8bf03c0d7992f9002e5fc3340e23626ba80021db978373f641e5445e695ce0e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_linux_amd64.gz",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "86e559fc2dc94fa221cd4514a81a6951284b5d49",
+        "bin_sha256": "9f5909e4a3ba0575a958a334deac59ff3b92d38f2ee4a11deaa473f0a1fb4d72",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_linux_386.gz",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "48b39b4a0c5de04231a614179dd88954533f08bb",
+        "bin_sha256": "163436686efcd959eabd41e0b3fbb03dfcf0028852db1532ad09ba9ee08627e2",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_darwin_amd64.gz",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "c5c30490301c3f270b07d99a73f4f09bae89e7ba",
+        "bin_sha256": "30ca1790d8c4df6ff737aea5fdd51f158a821da7cfcd69514fd59adafb8ca37d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_darwin_386.gz",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "5af3570f4a29066b3d0ad1b60d08e60fd2645053",
+        "bin_sha256": "5af3570f4a29066b3d0ad1b60d08e60fd264505303ccf97fdb68ea9729dce669",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_windows_amd64.exe",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "ded1949fbeaf76500a321923e0361d9e91762a51",
+        "bin_sha256": "ded1949fbeaf76500a321923e0361d9e91762a51abadea42422593ec440bff63",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.5.0\/symfony_windows_386.exe",
+        "version": "4.5.0",
+        "notes": "- Add support for phpenv \/ Travis",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "fd8054ed0a29592fd3d748c1c6c4b1dbe82c10f3",
+        "bin_sha256": "dd7c966c31ff602aeaf2e9d8ca7a7fb5fa3319c53318c043df5f7bbac74eab3f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_linux_amd64.gz",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "a791ee710f923fc89617292afb2abe013c924cb5",
+        "bin_sha256": "7d6b3b7c9d7ce598f612e6f61bbfacc8374f36b0286701934765594653f29604",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_linux_386.gz",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "2ccd09319e851ce721131bdfcc60cdaced6accec",
+        "bin_sha256": "adf96cc38b84c89fbf516386a7d02edc1caf3b14e1d450876f69434d478b7bf3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_darwin_amd64.gz",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "ac96a05b0a566c8212375abe880d11d34b2eb76e",
+        "bin_sha256": "8e3f9c2389fef600db55bcac3c8be60fbf4c1009243afc24074af45e8b1b832f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_darwin_386.gz",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "42a67ee78b0b7301bdf71c4326bc073ea86f2895",
+        "bin_sha256": "42a67ee78b0b7301bdf71c4326bc073ea86f28950a1ff52407da2e3c8bebb06b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_windows_amd64.exe",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "b0d54f22287fde15430bbe8546461a0376fe4bf7",
+        "bin_sha256": "b0d54f22287fde15430bbe8546461a0376fe4bf71c0cd4d530f585823275daa3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.5\/symfony_windows_386.exe",
+        "version": "4.4.5",
+        "notes": "- Fix broken Symfony WDT\n- Make variable project level by default (and switched from `project-level` to `env-level` flag in `var:set`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "99280109989d011bb9f3994840435f438c5642e0",
+        "bin_sha256": "6cbdfd3346e97175a5181a2de43e6a80a2ae5426bc27ca11138bfd2068697fa2",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_linux_amd64.gz",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "e018ed962384de28b0bb797c1383e6f36e650e23",
+        "bin_sha256": "554d3bd1121a03abf9aea4c2c5c112a92c915b8b11ab0d1491c53e5133d99592",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_linux_386.gz",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "263f71e7dcab8fca22208bba679c794ee4207728",
+        "bin_sha256": "8762e99aca0aa03c5fea0902ee4196d39b02158afcd9f34a71428a49558d77bc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_darwin_amd64.gz",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "028a2dc21a0984659061cae7aae4960cf599056e",
+        "bin_sha256": "36150d9e26b8c385284ab3443a431c30bfa08bc9c806718ce9fee3612c69e52e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_darwin_386.gz",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "f47cba50cb3be186103ed1e6c0ae73245cf25054",
+        "bin_sha256": "f47cba50cb3be186103ed1e6c0ae73245cf2505452c4a7fe9d25eda9f4b7c754",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_windows_amd64.exe",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "e40980a0a7ffdbad10f684ae87cd71e7d00e3748",
+        "bin_sha256": "e40980a0a7ffdbad10f684ae87cd71e7d00e37489a5a098e5048e2a4a8c45848",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.4\/symfony_windows_386.exe",
+        "version": "4.4.4",
+        "notes": "- Support MYSQL_ROOT_PASSWORD for Docker integration\n- Fix Elasticsearch support for Docker integration\n- Fix PKCS1 private key validation when adding certificate\n- Fix linked environment is not used if branch has a remote upstream\n- Fix panic when unable to parse a non-standard PHP version\n- Fix panic when running `env:create` with no existing Cloud envs\n- Fix `history last` does not watch activity\n- Add a note about how to control PHP versions in `local:php:list`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "0c1f06bda4abb77a3a8aa757d77eb3f8f32f0999",
+        "bin_sha256": "d4e44673217cbd0459f7fb95264a5e85e04c7cd09e8b1e221e573c4445633191",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_linux_amd64.gz",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "83a14fd0a6a1a7b12b89f7c3a212f508d2321863",
+        "bin_sha256": "31a55eec03715d69b01a3113ba1695b22252c9be1944c226f4606bad80a43b72",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_linux_386.gz",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "3edc4ad4b4e4b38bb4ee10dca7e7eb9e18073004",
+        "bin_sha256": "54a7ab8db89935ada0950f5dc2b8c39e97d64334cc056e54ad0055ddd159d11a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_darwin_amd64.gz",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "bd0c43667e9c0ea0f48b60467b9340fea5086773",
+        "bin_sha256": "a2c9d41b8e88c63abc6c8b9832afb1b398f88501c9fc8c338d1ef4cf6ec0fa1a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_darwin_386.gz",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "76298cfb64b33f52958ab8481970dd563c7dde4e",
+        "bin_sha256": "76298cfb64b33f52958ab8481970dd563c7dde4ebce2af5101d8a22348000ebb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_windows_amd64.exe",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "0e49d04f3512cbc0eb5c554ddf189ba00303d739",
+        "bin_sha256": "0e49d04f3512cbc0eb5c554ddf189ba00303d739af839bb3f660e294b5a99c21",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.3\/symfony_windows_386.exe",
+        "version": "4.4.3",
+        "notes": "- Remove warning on the CLI when Docker is not available",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "ba60aeb2a3d2d130327d374dfd69ae65b3a52a5c",
+        "bin_sha256": "d8843ed441fc8f1a0fecb378a98edc89caf15291e662f770c2a64b5c1ab3bf51",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_linux_amd64.gz",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "50623044e74a2c3370ad7cfa986c95785fae5d0c",
+        "bin_sha256": "c61a1184393227d8f74b279dcb18f1f92e51ed60eac16c5542cb03d59f8ac0b3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_linux_386.gz",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "d023c17b4cb849c03ca104831299eb96f44b0fbc",
+        "bin_sha256": "2b799ab3a719560099f1730f628a2b9d0bcf96d7a3324b44fbdfc346ec2a96d4",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_darwin_amd64.gz",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "47b6ebc83b1e380f258c7b813a957125de9d262f",
+        "bin_sha256": "6e8fb153a84f8b01e87e2f37ff4c700e3146f737288e3d2b01a8a38c6dcab7d1",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_darwin_386.gz",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "8a057b0caf95e251dc97ea1c1724a8a0ac0a95bf",
+        "bin_sha256": "8a057b0caf95e251dc97ea1c1724a8a0ac0a95bff9077309ed5be7b83b4d27bf",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_windows_amd64.exe",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "5b362ff89123a5890ef66dc9d48481ab5e746eb6",
+        "bin_sha256": "5b362ff89123a5890ef66dc9d48481ab5e746eb6660bbddfb0a9ed713ac2d3c7",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.2\/symfony_windows_386.exe",
+        "version": "4.4.2",
+        "notes": "- Fix Docker version autonegotiation\n- Fix Docker integration with unix socket\n- Fix serving PHP files in subdirectories\n- Make upgrades less intrusive",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "6084c1de494d8a10a24bf958eb87cdf38e1cc4ab",
+        "bin_sha256": "13fc75948c75ce4ea8263d095159498337a3b8e61d88d0026aa5b858245fc39a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_linux_amd64.gz",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "f8cf965c7102e53fda27a336f733ce45cc2d34bc",
+        "bin_sha256": "1a86ca9bd327ef9058bbb0ecdf20c33f6e8b3b56a0cddae02c9e603576fbff2c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_linux_386.gz",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "a7c2b7b02e65138cddaf088cdab19e214e0d78cc",
+        "bin_sha256": "4107476ac8097ee71e42b39203fa9f64ebaf45d3aade6379edf2101d2aa7841b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_darwin_amd64.gz",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "86a9c123ec862a71b34ded7e4ad61b2fced7466c",
+        "bin_sha256": "8e6c4916402f49265afdc85cef7a8ca7f60861fbbdb76513ee7f712c05ada4d8",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_darwin_386.gz",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "d9431b6cac0beb624847b02276b304c07e83c467",
+        "bin_sha256": "d9431b6cac0beb624847b02276b304c07e83c46796f9136e6a3e2b2e84dfb4f9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_windows_amd64.exe",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "70775c345961b401557ffc5518f217a9dce0a8c4",
+        "bin_sha256": "70775c345961b401557ffc5518f217a9dce0a8c4152bbc7560b87d9047443335",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.1\/symfony_windows_386.exe",
+        "version": "4.4.1",
+        "notes": "- Lower the Docker host connection timeout\n- Fix 'unable to find composer' error message\n- Fix some panics during error handling",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "3bf6c97b0a3ebb1a26556f6017233fa65b828393",
+        "bin_sha256": "740e179fde97c02368ca39ba07fd53fce2c2afed07689bd83618bd5279a2e998",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_linux_amd64.gz",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "11da7183bae1e54ca1c0539342f2dbd03bb9b578",
+        "bin_sha256": "c93faa8681a8e1bf94698184c6f9d7647f9a08f055008849ab45ec5ca0cd006a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_linux_386.gz",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "27c15f928bb027bd4d5d112650de1f311e58bd8c",
+        "bin_sha256": "473e64575ffedc12b8442cb7174e3c9fc2161c34a2716c3604a4257c0948a4dc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_darwin_amd64.gz",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "bc9526213f64386baa635ee4490f17a8af94c2ca",
+        "bin_sha256": "59acea67d4efae79a76630d5eb59e158af73526975532a45d3129600b2d79508",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_darwin_386.gz",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "d5be2465a9e9dd4e2379436e307e5e9277b5e434",
+        "bin_sha256": "d5be2465a9e9dd4e2379436e307e5e9277b5e434eb65349bde87cbf3affa4b4b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_windows_amd64.exe",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "4aab44c03066969dde0177080db3f76c83118457",
+        "bin_sha256": "4aab44c03066969dde0177080db3f76c8311845763f6e1d3153dd9fb0e0c10c0",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.4.0\/symfony_windows_386.exe",
+        "version": "4.4.0",
+        "notes": "- Fix logs output on STDOUT\/STDERR when running a command in the background\n- Add support for Remi's RPM PHP\n- Add support for different names of a PHP version in the same directory (fix Ondrej support)\n- Fix crash when using `server:start` with PHP CGI\n- Restore `list` command\n- Add more information when a process, ran with `symfony run -d`, exit with a non-zero code\n- Fix `env:ssh` panics with Git Bash on Windows\n- Fix secrets reading with Git Bash on Windows\n- Fix tables formatting on MinGW (Windows)\n- Fix tunnels don't stay open with Git Bash on Windows\n- Fix 'exit status 128' with `server:stop` on Windows",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "b08566988cdca6503412a00071b9b63e47241836",
+        "bin_sha256": "18e1aa33906ddd48a2496b0fa597072bae6c8639b97b6e7ba6d6b01a4d606451",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_linux_amd64.gz",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "29904330bcd15445a79f3e35d67952eb3197162c",
+        "bin_sha256": "a56d88acfc7e0a444815fa3cb4735b14a854e11916e2277da10adf280de9d582",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_linux_386.gz",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "209ab476b844414d54c67919282bcbf4c2cd823b",
+        "bin_sha256": "67cc92d132c81d571c22ea2f149ca474e525c158700e484503bac1d53cb93afc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_darwin_amd64.gz",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "a63b5c62cc4459c38f55b2c793540b22b0a8badd",
+        "bin_sha256": "29868b75bf8d72e055cc32cbeaf72bc70f6b40639f25e18c885ef65b82cc88e0",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_darwin_386.gz",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "758ce0348e150cbc107d37cc9a8d9a15a6ad7bf3",
+        "bin_sha256": "758ce0348e150cbc107d37cc9a8d9a15a6ad7bf374b0b59abe41bd18a9f03795",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_windows_amd64.exe",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "fd4bdb94d3a294fbf196283501afa4f8ebd19537",
+        "bin_sha256": "fd4bdb94d3a294fbf196283501afa4f8ebd195371574ce95a48c374d918cc2ca",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.4\/symfony_windows_386.exe",
+        "version": "4.3.4",
+        "notes": "- Fix `env:sql` is not interactive by default\n- Fix .env management (to support the new Symfony way of dealing with the various .env.* files)\n- Fix Docker Compose support when using remote Docker host (with Docker Machine for instance)\n- Fix Git progress is not shown during `deploy`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "e937e32c1574aa4d7373859d9048ceada9d47a83",
+        "bin_sha256": "792946085d6466a441e8253f3c7b56890e4a8c63402a5b920ee9b33e13636e2e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_linux_amd64.gz",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "f2debfb0d705692f4854865796dfca56448db9b0",
+        "bin_sha256": "609432f9fdb3cee9f8b90bf57b8e6b19b15c03c8ff978c03ac76c99ba9d885cb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_linux_386.gz",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "629f909a704293c0724b1ddbfc3899179cb443ee",
+        "bin_sha256": "5bf6fe18fea389a9574f1daf4d9e50a064d4121cbabf7a23398bff8bbd3d1d69",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_darwin_amd64.gz",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "fe6dd881efb36c05f2320b888786728c05001c41",
+        "bin_sha256": "b036b515077a0eaddae67819f8948bc34765f8253b685438965d936058eafa8e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_darwin_386.gz",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "fb6209f7763999a4dcbcdda6d0599244a3cde0d5",
+        "bin_sha256": "fb6209f7763999a4dcbcdda6d0599244a3cde0d55532d451fd157e4c2f8348c6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_windows_amd64.exe",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "da15fee5efc792ba4ba3e4aea212627edb5620da",
+        "bin_sha256": "da15fee5efc792ba4ba3e4aea212627edb5620dac81ff609246b521527d51e58",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.3\/symfony_windows_386.exe",
+        "version": "4.3.3",
+        "notes": "- Fix panic if project is linked to SymfonyCloud but no configuration file is present\n- Allow environment synchronization without taking snapshot\n- Fix applications discovery when using symlinks\n- Fix conflicts between some command aliases\n- Make `server:start` automatically disable TLS support if no CA is present",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "786e5a357ceb8af86a163eab20222588b2deef5c",
+        "bin_sha256": "29830b24aa836399ba1478c04a2e3e81aed5bdbc9c2eee37387f433d1df4f6cc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_linux_amd64.gz",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "fd793646fd0b66ac8b17d56d76be5c4734dc1e8c",
+        "bin_sha256": "1660cd385c0cc0eef472f3b70b7e7f51b83a1915255a0f02f0a1a9d40012dd43",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_linux_386.gz",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "fe2db3dfc74d91d4c1d22912c2d0b44e3d117a5c",
+        "bin_sha256": "fa4fe985cf33b15ce490a66faa316fb2d783f1c6c3383fe21381c01889efb03d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_darwin_amd64.gz",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "21221d682be04da9be09eda984cfe39bf89c60d2",
+        "bin_sha256": "3ce80ee134669bb4b3ac00eaafbeceddacc6815e2284fe48834fb427766f724e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_darwin_386.gz",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "fcddf2de9f00fd07e8d1265a032f1b4911bb6ab8",
+        "bin_sha256": "fcddf2de9f00fd07e8d1265a032f1b4911bb6ab832cce1e58c8f8bdb25a5ffa5",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_windows_amd64.exe",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "61e2026f6c227ff4b177330a797901f0268d5074",
+        "bin_sha256": "61e2026f6c227ff4b177330a797901f0268d5074bbaed6591589f561a8756250",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.2\/symfony_windows_386.exe",
+        "version": "4.3.2",
+        "notes": "- Treat `.php` extension in a case insensitive way\n- Fix APP_SECRET wrong logic\n- Fix temp dir for PHP wrappers when on SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "cd17c3429cabce3210c95f40ece0c0f6817f3508",
+        "bin_sha256": "459f52f3735c6b95963312de8f23b58370a21ccca24fa6a9e4f53b6dda3c6ac7",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_linux_amd64.gz",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "fb5e3a0aa73fd5622a94ed6474dc4eb4aae566e1",
+        "bin_sha256": "9da9065c04babe19a6c91c071de1fac491e550da8305957c5e663b7e8e80b958",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_linux_386.gz",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "5d0a96ea21e2cf6242ffe3f03fe4e06dcaa5a28e",
+        "bin_sha256": "131da709be43bf8e289ccc4454dc2a7d90fec9c0e300c137a8b387c38c363794",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_darwin_amd64.gz",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "0c4ce60ad06f836756283c35f291f6bfb0e22cf3",
+        "bin_sha256": "1035d05cf11085b428bcf4a6bc092e8a04980f904644218f3a8f5520fc1276a6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_darwin_386.gz",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "b2eb39beecbfbcc20099ee47d7ace20f93e31326",
+        "bin_sha256": "b2eb39beecbfbcc20099ee47d7ace20f93e313265d9518bc728725fa173aac6a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_windows_amd64.exe",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "d40749d7fedbc44035ebe45ed2f599e34573feeb",
+        "bin_sha256": "d40749d7fedbc44035ebe45ed2f599e34573feebc3b6e515433b37c299b03145",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.1\/symfony_windows_386.exe",
+        "version": "4.3.1",
+        "notes": "- Makes possible to bind tunnels to another address than 127.0.0.1\n- Automatic cleanup of previous releases after upgrade\n- Display log prefixes when tailing 'all'\n- Fix `env:log` adds extra new lines\n- Support `symfony sql < dump.sql` syntax",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "78e0f05d2bff3d877fe1a46f300a0228c78bd6dc",
+        "bin_sha256": "b174c840e64ea9914c4fe97d3d4ef7ceb11a553390bd28c3d8d0242c79133fd6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_linux_amd64.gz",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "6e2b4008d793587281b68c24c34caf98113fa307",
+        "bin_sha256": "837cba3f6158c1e20616e3da95d22bc3e8425aec30a29593c83b9504b68678db",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_linux_386.gz",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "4d20c0cac2d87e0e0947d135ea23d1bbbbde7fd4",
+        "bin_sha256": "9c33aa3adbdfa2718d1d46174de3a600bae63295e6c5bb032d3f1195c55e2008",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_darwin_amd64.gz",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "955c7fecdff725d7ad4c8f66e6252d1365b2d29b",
+        "bin_sha256": "17a1e71774f236374c63823cb47691a29ae8fc0308f0ac360c8ec39955634696",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_darwin_386.gz",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "1a3e955adfc78b012df7b22475bc71e832ec2c90",
+        "bin_sha256": "1a3e955adfc78b012df7b22475bc71e832ec2c90c636ffb6add887a635bd71ea",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_windows_amd64.exe",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "d018799e0d6c880aba2a93eb75db6970ea11589f",
+        "bin_sha256": "d018799e0d6c880aba2a93eb75db6970ea11589ffb00c1f58a2f7b043a61de4c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.3.0\/symfony_windows_386.exe",
+        "version": "4.3.0",
+        "notes": "- Add support for services as Docker containers",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "3c93e4ceb2066c23d7ced6e5c8a9dd9104bfa2cf",
+        "bin_sha256": "ffab6f429b1a970dc175baa5e6aa997436bdcd6a43d616a471d41ee011efffcb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_linux_amd64.gz",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "6ea5ed8c4e47dcd83fc02b8b6a6d88d321e96033",
+        "bin_sha256": "9d7a6ea40109b9dca3eb7c80f341ca5c013568e3cdcda79e0d63bc3a44448b46",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_linux_386.gz",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "56015ecb3a3f3a10a3ec0108f8e5e9fb1b8e51a1",
+        "bin_sha256": "3c8b8584689355237ceea3c92ba9182ae7b9b73727fbaa2d0d715fd85fc9445b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_darwin_amd64.gz",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "78b28828343c11e2617cfa93db5a6aab1fcc5f49",
+        "bin_sha256": "12ff28b15821f4cf14f889a86f5244e57d5e7a544d6e50cdb2cdbc7c03e3672b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_darwin_386.gz",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "0f1a938ff4d506fb025d05c75c2a3b5e0062add1",
+        "bin_sha256": "0f1a938ff4d506fb025d05c75c2a3b5e0062add13db39d734da16e579a831dfb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_windows_amd64.exe",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "c306bd7dab68bdd5018b60fa4a02b07bfb957504",
+        "bin_sha256": "c306bd7dab68bdd5018b60fa4a02b07bfb95750413d0d38356f039618f91ad21",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.11\/symfony_windows_386.exe",
+        "version": "4.2.11",
+        "notes": "- Add support for multiple `--file` flags on `symfony server:log`\n- Fix `--no-app-logs` flag on `symfony server:log`\n- Fix env vars support when using the built-in PHP server\n- Fix panic error when no PHP is detected at all\n- Add support for environment.merge-pr activity type\n- Don't link current directory at first project creation (on login) if no composer.json is found\n- Uniformize domain attach and detach wording and renamed `domain:remove` to `domain:detach`\n- Make possible to use `var:get` and `var:set` with variables not defined as environment variables\n- Improve configuration help when attaching a domain",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "ec039c0e7dc614a3840695f6b8d6ca48867d46a2",
+        "bin_sha256": "de3e21f95d41343d6d616d9a9ca4db817d987cffc0dce52811248cb63ca7a8c9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_linux_amd64.gz",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "24540649629690b7fd640deeb728040df2a14d8c",
+        "bin_sha256": "6b970ea657c24f1d84fd0da49b5f1875e038a8619cafe3a45c694dced1d8d6bb",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_linux_386.gz",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "b59b2f6e06048962f1f7f41320ef6d4d6c6f4ec9",
+        "bin_sha256": "be742ed8fc37c1cf65b6248ad92250c8539894b53a2b4d5c9572e865bae0010c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_darwin_amd64.gz",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "398e6f5a0c184254a18133d42376b5c4cd7a8173",
+        "bin_sha256": "585cd91e430af19a002a6e7f21b81c22a03c41534e26c6cba6c11e97f1155df7",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_darwin_386.gz",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "19ac259c918c2eef39f816eb303edf0beea0c48f",
+        "bin_sha256": "19ac259c918c2eef39f816eb303edf0beea0c48ff307cb5f86c3f75395c482c3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_windows_amd64.exe",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "d4c06a2b0dd6f8930e56eae770a8172b164fa1fb",
+        "bin_sha256": "d4c06a2b0dd6f8930e56eae770a8172b164fa1fb181df18baed8689f0c3fd336",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.10\/symfony_windows_386.exe",
+        "version": "4.2.10",
+        "notes": "- Improve SSH experience on Windows (ANSI support)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "a4ab67ca343ca0549414bfd838a73cd96a3a0ea0",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_linux_amd64.gz",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "dc1acea2351b0af2c2775a3484ab3e594a882e6c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_linux_386.gz",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "4b93cf4f19f9880cfb35fffb116e571f2a305776",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_darwin_amd64.gz",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "3dacac5811410356298455a4ad4423c548acf637",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_darwin_386.gz",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "79024bb70e250f69046b3a0be582e88faf512845",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_windows_amd64.exe",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "62837ef34787fd6d2ead64ffbbbe0b3b02df461f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.8\/symfony_windows_386.exe",
+        "version": "4.2.8",
+        "notes": "- Add the `version` command as an alias for `-V`\n- Make spinner works for all terminal emulators\n- Add more feedback during `project:edit`\n- Always ask for confirmation during project creation\n- Expose RabbitMQ management URL",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "8e87b5e1ce0941a9ed6b2589c16b76e3b4d1e46f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_linux_amd64.gz",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "78a150ad97496903e141bee9b4c24d0828b3b07f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_linux_386.gz",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "80dafcc0515c3eddbd5dfc2fc8a2a43a3b6fe3ea",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_darwin_amd64.gz",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "7b4ffb6ccaf2ac6d04d73b391447b3b1ccd7dbc9",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_darwin_386.gz",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "936da1c2ac1503b6aab26e9d4383ef8bceaf3625",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_windows_amd64.exe",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "aae76d6aae24ba16cb42cfafd6ec1074adbc5360",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.7\/symfony_windows_386.exe",
+        "version": "4.2.7",
+        "notes": "- Fix `symfony composer` used PHP version\n- Add `COMPOSER_MEMORY_LIMIT=-1` when running Composer\n- Fix client is not respecting `HTTP[S]_PROXY` environment variable\n- Improve client timeout configuration\n- Add support for non inheritable variables\n- Fix `symfony new` to always install the latest version of a skeleton when version is `x.y`\n- Improve error message when one has not yet access to SymfonyCloud",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "2179413e8db0ce71f2350b0705872381c2255483",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_linux_amd64.gz",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "606582da7fc414ca5e05fbe173245d00e56b6ee2",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_linux_386.gz",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "638abb0a99844525db4ed4173d775108bf61f772",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_darwin_amd64.gz",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "3527e924a06cc7fcd23b5c5303bb33ddd9824730",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_darwin_386.gz",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "11f98308c1b59cccb5287389b6d9f9f05f4eb029",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_windows_amd64.exe",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "3ec9314b52e1b1fb79eebf7988dda85a119b5d64",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.6\/symfony_windows_386.exe",
+        "version": "4.2.6",
+        "notes": "- Check the directory is tracked by Git before linking\n- Run `git init` if necessary during `project:create`\n- Fix environment list is missing environment whose parent is not master",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "f819b06f75a420c95e06655fc3e0d0f0f5cc8080",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_linux_amd64.gz",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "95d65dce7014f86b831dfd40548e7526c6bc326d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_linux_386.gz",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "fbacbf7469ec537724c29ba9ad6cae1bff94368e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_darwin_amd64.gz",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "3c957fb065b0b7ab717f3a46df7ef8423fb95edf",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_darwin_386.gz",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "c0fe0046436d259767412dbc015a543bf8d4e80a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_windows_amd64.exe",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "8130d768a49e069ba5ea9ea2f92a78a60262ff6e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.5\/symfony_windows_386.exe",
+        "version": "4.2.5",
+        "notes": "- Fix bug where Composer was not able to restart itself without XDebug\n- Improve output of `server:status`\n- Fix race condition in `server:stop`\n- Remove unused `interactive` flag from `project:edit` command",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "5834c52837a07615a7c81193f1cd2515bb402211",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_linux_amd64.gz",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "3b2873d56c582da855c3ce6869405399b2ac5458",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_linux_386.gz",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "e6170889c445c9d880bb38b876edb02d117f5ea0",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_darwin_amd64.gz",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "10b620683720bc7ccb473a43497f00e60cec18fd",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_darwin_386.gz",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "b9a1bf6d11902936e6cd8155cd3aaa15efc0929a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_windows_amd64.exe",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "baa14b0727732631f3009e4a96f0e1b6c2c09fb3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.4\/symfony_windows_386.exe",
+        "version": "4.2.4",
+        "notes": "- Add support for running `symfony composer`\n- Display command output when an error occurs while running sub-commands (`symfony new` and `symfony init`)\n- Replace the `--no-init` flag by `--cloud` on `symfony new`\n- Add support for running `symfony pecl` (works also for `pear`, `php-config`, `php-fpm`, and `php-cgi`)\n- Add `env:fpm:status` command to get PHP-FPM status\n- Add `local:php:wrappers:install` to install the PHP wrappers\n- Add support for `PHP_BINARY`\/`PHP_PATH`\n- Fix `SERVER_PORT` env var on the local web server (remove `SERVER_ADDR`, add support for `X-Forwarded-Port`)",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "b234edaa406a681d52e9be4105f23cd93d6d6970",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_linux_amd64.gz",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "f6b12c4326808925781a965511c181ad11d20525",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_linux_386.gz",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "fe70788aaa2480364b7793f3af871b8b78436e61",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_darwin_amd64.gz",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "48c5fbb1140b197bc7c18be29495bd3bbef3ccc4",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_darwin_386.gz",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "d7231c987c8e2d9cab2e7a5d2b7a7105174513bf",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_windows_amd64.exe",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "25a63268a8d8c69196dcf03bef3338e3bfad01bc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.3\/symfony_windows_386.exe",
+        "version": "4.2.3",
+        "notes": "- Add support for `--app` on `var:get`\/`vars`\n- Fix running a cron in a multi-app project\n- Fix the `--app` flag behavior\n- Fix deleting an inactive environment\n- Improve some error messages when managing a Cloud project\n- Fix deploying a project from a sub-directory\n- Improve cloud app detection when a single app is not in the root directory\n- Remove warning when deploying a project without a `composer.lock` file\n- Add MacPorts support",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "06922cc22b06cdbab6fd6efdb21efd31bf15a00d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_linux_amd64.gz",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "c8070045da015e33addc225a0ad7aceb75f88a35",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_linux_386.gz",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "e2e75d948833fc3a8cd5df67934ce3fa715a2557",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_darwin_amd64.gz",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "a32d597d78dc4a142309b30d9e7dcd19f38eeff3",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_darwin_386.gz",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "1041ae4b489673063c82ed33f2ddbbc6fc3c5730",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_windows_amd64.exe",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "fdb215c2867a27cb2016cc0b5d42c1b548aefa9a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.2\/symfony_windows_386.exe",
+        "version": "4.2.2",
+        "notes": "- Fix panic for ignored errors during the servers startup\n- Add support for using the local web server on pure-HTML websites\n- Fix PHP -S server HTTP response (extra first empty char)\n- Fix best port detection for the web server\n- Fix local domain name matching with the proxy when using wildcard domain names\n- Fix `server:list` output when some background commands are running\n- Check if current environment exists before executing prechecks on `deploy`\n- Allow to create a new project from a linked directory if using `--no-link`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "3405963a04d1976a9fbdaff56f2cc75d439cd46b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_linux_amd64.gz",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "33a34a2a5e26f72b31eb7220022134e2ea4aa39d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_linux_386.gz",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "f19d63cf7bc0b637e87c11fca0bae5f78ace39cc",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_darwin_amd64.gz",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "c4542538ce212cd67077190d28b543bc5afa92af",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_darwin_386.gz",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "ce07bd7dd08dcf4898031b6ef5f77b317c8ad8af",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_windows_amd64.exe",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "adb47d1d151f93afb8b58a2865d3bb1b1480de29",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.1\/symfony_windows_386.exe",
+        "version": "4.2.1",
+        "notes": "- Fix release issue",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "120bfee351ee18e7ba65fe5d3217a6bf4cc53ed8",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_linux_amd64.gz",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "35c7e607ba53dd9cbaae0958e4539cafa552a423",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_linux_386.gz",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "5fb3489faea743c75b819b14727712a24dd2dbf5",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_darwin_amd64.gz",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "cde1b6c6513ddd5941cde7537e21e69ebe2099f6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_darwin_386.gz",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "71fe85b8bd8bcd9298f6bc4144243240f68dba47",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_windows_amd64.exe",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "5779592f4e8dad77180db212425e845ee806ce32",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.2.0\/symfony_windows_386.exe",
+        "version": "4.2.0",
+        "notes": "- Remove `--version` as an alias for `-V`\n- Add `--version` flag for `symfony new`",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "6d6d701be40f13b5ff0966842d256e802f727cb4",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_linux_amd64.gz",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "bb899f6263f086563cff1b5a7410b1da3082d187",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_linux_386.gz",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "a79aadeae61c4919e4ad44def7ea9ece77e905d4",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_darwin_amd64.gz",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "d0435dd7edf9d55e99aa7610f41c1cc54f50a970",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_darwin_386.gz",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "7ce5f207a4aa6260f378b2b3fb053d8c61bdffab",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_windows_amd64.exe",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "f91367ecd1e96e736d670d7a39bbb15aa13f64ea",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.1\/symfony_windows_386.exe",
+        "version": "4.1.1",
+        "notes": "- Fix default PHP version discovery\n- Improve currency formatting for plan selection",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "22ecc59547fb6e90870242d0a99bafce25042677",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_linux_amd64.gz",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "d83f6ce3a70aaae47c34f04e3ddd0db01667b3ed",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_linux_386.gz",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "54fdba5c27f545b1812aa79bd04d952d47c45c7b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_darwin_amd64.gz",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "db0aed4c383c363068d7033b69cee79804cb957b",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_darwin_386.gz",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "1689f381c4e65220fb3098878c9e1ec553cc7938",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_windows_amd64.exe",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "2b8c9ab025e345d91e1dad7b7a9cad4ba2d6d27e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.1.0\/symfony_windows_386.exe",
+        "version": "4.1.0",
+        "notes": "- Fix user env vars not defined in PHP-FPM (to mimick `php -S` behavior)\n- Fix `proxy:stop` when the proxy is not running\n- Fix relative directory support on the `--dir` flag\n- Add support for PHP installed via XAMPP on Windows\/Linux\/MacOS\n- Add support for PHP installed via MAMP on MacOS\/Windows\n- Add support for PHP installed via phpbrew on MacOS\/Linux\n- Add support for PHP installed via Cygwin\/Chocolatey\/WAMP on Windows\n- Display plan details (ressources and prices) during project creation",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "b5fd01fae0da479da1cb4c2d677c0247ca56e27d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_linux_amd64.gz",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "fcf49b9cdc99c87b0a6ed630f6aef63b71437355",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_linux_386.gz",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "defa9c25aba10e82d98ddc042b2910cbf767367c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_darwin_amd64.gz",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "ad34b3ff1e2015743609acfc04dd0b2204e7172d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_darwin_386.gz",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "2e5ad011da79db4024bad7da1a79da3c99bc5d61",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_windows_amd64.exe",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "ee741283b3e01dd58a35eb8b5c20035d731bb55f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.5\/symfony_windows_386.exe",
+        "version": "4.0.5",
+        "notes": "- Add `local:server:prod` command\n- Add `--allow-http` to `server:start`\n- PHP 7.3 is now supported\n- Fix `security:check` error when a version is an integer in `composer.lock`\n- Fix environment list formatting if environment name looks like a number",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "9ae71e40d6b115ee27ae110a1e2bf8bbd9921d25",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_linux_amd64.gz",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "358e2e2b2a4a0d57f6a574b79d7215a15805c8d0",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_linux_386.gz",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "fc4f36a750f29b3dd852c8ad8c8ab2a6f4980548",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_darwin_amd64.gz",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "740fc69ab4213e2e56b3907c96bdc881dbd99651",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_darwin_386.gz",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "8038d72d7724e1d5c4f0f5a544543c387857dad5",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_windows_amd64.exe",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "f39af77251cdb9ef292174454107b0d252866213",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.4\/symfony_windows_386.exe",
+        "version": "4.0.4",
+        "notes": "- Remove the beta flag on the local server",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "d45201a0fafe85284b3f504045b883429e70414e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_linux_amd64.gz",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "1598265a11976eb9c1fda98a3287910f37075dd8",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_linux_386.gz",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "49d909bf0f55aed7d1916308fcea188ed7c70fd6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_darwin_amd64.gz",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "71093445be18d72c3f67aed1de069b33414ded28",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_darwin_386.gz",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "799b424a961cbcf4b87cfbe9aa0a068087932b6c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_windows_amd64.exe",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "82c417de1594259ed8cc985d4559d351a4459460",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.3\/symfony_windows_386.exe",
+        "version": "4.0.3",
+        "notes": "- Fix opening remote on first deploy",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "d493946805b92ad5df8ea371d85d2c07cfa7f9ac",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_linux_amd64.gz",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "3fda57e068cdf0b9bebfb883c5dcbd0102b10e9f",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_linux_386.gz",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "55e8c1826b93180942c2a30d2bc361c89c602773",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_darwin_amd64.gz",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "cd374f4a2c646b5a8556df25a4923733accbe5f6",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_darwin_386.gz",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "e07887483abb2d5fb34956da35e74e2ac5a9a0ee",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_windows_amd64.exe",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "b5ad197b8b6aefb080761c22aee5605ac72ef40c",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.2\/symfony_windows_386.exe",
+        "version": "4.0.2",
+        "notes": "- Fix serverVersion DSN for MariaDB with Doctrine\n- Fix 'http method PATCH is not allowed for this path' during `project:scale`\n- Integrate security:check during deploy\/redeploy\n- Windows: fix autoupdate, requires running uninstaller then download and run new installer",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_amd64",
+        "sha256": "ff4262518a73c397cf7ec704e89d3beebf77ef91",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_linux_amd64.gz",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "linux_386",
+        "sha256": "38f3c964eebd9f93a847044c5e4812f330960d0a",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_linux_386.gz",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_amd64",
+        "sha256": "9188d8720f8ed66017a5afe0a456a93f86fae382",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_darwin_amd64.gz",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "darwin_386",
+        "sha256": "58ea2d05604d899232baaefe78aa1ed1e537230e",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_darwin_386.gz",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_amd64",
+        "sha256": "360807f56894b231fc240ebf9bf94bd655f1586d",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_windows_amd64.exe",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    },
+    {
+        "name": "symfony",
+        "platform": "windows_386",
+        "sha256": "6a2b3a5c3ebdc9915e2cd62f8f5766f47059b940",
+        "url": "https:\/\/github.com\/symfony\/cli\/releases\/download\/v4.0.1\/symfony_windows_386.exe",
+        "version": "4.0.1",
+        "notes": "",
+        "updating": []
+    }
+]
